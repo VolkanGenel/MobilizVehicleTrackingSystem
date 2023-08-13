@@ -1,0 +1,70 @@
+server:
+  port: 80
+
+spring:
+  zipkin:
+    enabled: true
+    base-url: http://localhost:9411
+    service:
+      name: api-gateway
+  main:
+    web-application-type: reactive
+  cloud:
+    gateway:
+      globalcors:
+        corsConfigurations:
+          '[/**]':
+            allowedOrigins: "*"
+            allowedHeaders: "*"
+            allowedMethods:
+              - GET
+              - POST
+              - PUT
+      routes:
+        - id: user-service
+          uri: http://localhost:8090
+          predicates:
+            - Path=/user/**
+          filters:
+            - name: CircuitBreaker
+              args:
+                name: user
+                fallbackUri: forward:/fallback/user
+        - id: vehicle-service
+          uri: http://localhost:8091
+          predicates:
+            - Path=/vehicle/**
+          filters:
+            - name: CircuitBreaker
+              args:
+                name: vehicle
+                fallbackUri: forward:/fallback/vehicle
+        - id: authorization-service
+          uri: http://localhost:8092
+          predicates:
+            - Path=/authorization/**
+          filters:
+            - name: CircuitBreaker
+              args:
+                name: authorization
+                fallbackUri: forward:/fallback/authorization
+        - id: zone-service
+          uri: http://localhost:8092
+          predicates:
+            - Path=/zone/**
+          filters:
+            - name: CircuitBreaker
+              args:
+                name: zone
+                fallbackUri: forward:/fallback/zone
+        - id: sector-service
+          uri: http://localhost:8092
+          predicates:
+            - Path=/sector/**
+          filters:
+            - name: CircuitBreaker
+              args:
+                name: sector
+                fallbackUri: forward:/fallback/sector
+      default-filters:
+        - RewritePath= /(?<segment>.*), /$\{segment}

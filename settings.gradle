@@ -1,2 +1,6 @@
 rootProject.name = 'MobilizVehicleTrackingSystem'
-
+include 'UserMicroService'
+include 'VehicleMicroService'
+include 'DistrictAndAuthorizationMicroService'
+include 'ConfigServer'
+include 'ApiGatewayMicroService'

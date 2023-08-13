@@ -4,7 +4,134 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f359d816-efc1-4377-92f1-faa3499ec6b9" name="Changes" comment="" />
+    <list default="true" id="f359d816-efc1-4377-92f1-faa3499ec6b9" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ApiGatewayMicroService/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ApiGatewayMicroService/src/main/java/com/volkan/ApiGatewayServiceApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ApiGatewayMicroService/src/main/java/com/volkan/controller/FallBackController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ApiGatewayMicroService/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ConfigServer/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ConfigServer/src/main/java/com/volkan/ConfigServerApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ConfigServer/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ConfigServer/src/main/resources/config-repo/api-gateway-micro-service-application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ConfigServer/src/main/resources/config-repo/district-and-authorization-micro-service-application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ConfigServer/src/main/resources/config-repo/user-micro-service-application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ConfigServer/src/main/resources/config-repo/vehicle-micro-service-application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DistrictAndAuthorizationMicroService/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DistrictAndAuthorizationMicroService/src/main/java/com/volkan/DistrictAndAuthorizationServiceApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DistrictAndAuthorizationMicroService/src/main/java/com/volkan/config/rabbitmq/RabbitMQConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DistrictAndAuthorizationMicroService/src/main/java/com/volkan/config/security/JwtTokenFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DistrictAndAuthorizationMicroService/src/main/java/com/volkan/config/security/JwtUserDetails.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DistrictAndAuthorizationMicroService/src/main/java/com/volkan/config/security/UserSecurityConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DistrictAndAuthorizationMicroService/src/main/java/com/volkan/constants/ApiUrls.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DistrictAndAuthorizationMicroService/src/main/java/com/volkan/controller/AuthorizationController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DistrictAndAuthorizationMicroService/src/main/java/com/volkan/controller/SectorController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DistrictAndAuthorizationMicroService/src/main/java/com/volkan/controller/ZoneController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DistrictAndAuthorizationMicroService/src/main/java/com/volkan/dto/request/AuthorizeRequestDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DistrictAndAuthorizationMicroService/src/main/java/com/volkan/dto/request/CreateAuthorizationRequestDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DistrictAndAuthorizationMicroService/src/main/java/com/volkan/dto/request/CreateSectorRequestDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DistrictAndAuthorizationMicroService/src/main/java/com/volkan/dto/request/UpdateAuthorizationRequestDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DistrictAndAuthorizationMicroService/src/main/java/com/volkan/dto/request/UpdateSectorRequestDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DistrictAndAuthorizationMicroService/src/main/java/com/volkan/dto/request/UpdateZoneRequestDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DistrictAndAuthorizationMicroService/src/main/java/com/volkan/dto/response/AuthorizationResponseDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DistrictAndAuthorizationMicroService/src/main/java/com/volkan/dto/response/AuthorizationWithTokenResponseDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DistrictAndAuthorizationMicroService/src/main/java/com/volkan/dto/response/SectorResponseDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DistrictAndAuthorizationMicroService/src/main/java/com/volkan/dto/response/VehicleResponseDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DistrictAndAuthorizationMicroService/src/main/java/com/volkan/dto/response/ZoneResponseDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DistrictAndAuthorizationMicroService/src/main/java/com/volkan/exception/DistrictAndAuthorizationManagerException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DistrictAndAuthorizationMicroService/src/main/java/com/volkan/exception/EErrorType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DistrictAndAuthorizationMicroService/src/main/java/com/volkan/exception/ErrorMessage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DistrictAndAuthorizationMicroService/src/main/java/com/volkan/exception/GlobalExceptionHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DistrictAndAuthorizationMicroService/src/main/java/com/volkan/mapper/IAuthorizationMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DistrictAndAuthorizationMicroService/src/main/java/com/volkan/mapper/ISectorMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DistrictAndAuthorizationMicroService/src/main/java/com/volkan/mapper/IZoneMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DistrictAndAuthorizationMicroService/src/main/java/com/volkan/rabbitmq/model/AuthorizationUserModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DistrictAndAuthorizationMicroService/src/main/java/com/volkan/rabbitmq/model/AuthorizationVehicleModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DistrictAndAuthorizationMicroService/src/main/java/com/volkan/rabbitmq/producer/AuthorizationUserProducer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DistrictAndAuthorizationMicroService/src/main/java/com/volkan/rabbitmq/producer/AuthorizationVehicleProducer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DistrictAndAuthorizationMicroService/src/main/java/com/volkan/repository/IAuthorizationRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DistrictAndAuthorizationMicroService/src/main/java/com/volkan/repository/ISectorRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DistrictAndAuthorizationMicroService/src/main/java/com/volkan/repository/IZoneRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DistrictAndAuthorizationMicroService/src/main/java/com/volkan/repository/entity/Authorization.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DistrictAndAuthorizationMicroService/src/main/java/com/volkan/repository/entity/BaseEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DistrictAndAuthorizationMicroService/src/main/java/com/volkan/repository/entity/Sector.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DistrictAndAuthorizationMicroService/src/main/java/com/volkan/repository/entity/Zone.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DistrictAndAuthorizationMicroService/src/main/java/com/volkan/repository/enums/ECity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DistrictAndAuthorizationMicroService/src/main/java/com/volkan/service/AuthorizationService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DistrictAndAuthorizationMicroService/src/main/java/com/volkan/service/SectorService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DistrictAndAuthorizationMicroService/src/main/java/com/volkan/service/ZoneService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DistrictAndAuthorizationMicroService/src/main/java/com/volkan/utility/IService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DistrictAndAuthorizationMicroService/src/main/java/com/volkan/utility/JwtTokenManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DistrictAndAuthorizationMicroService/src/main/java/com/volkan/utility/ServiceManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DistrictAndAuthorizationMicroService/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UserMicroService/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UserMicroService/src/main/java/com/volkan/UserServiceApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UserMicroService/src/main/java/com/volkan/config/rabbitmq/RabbitMQConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UserMicroService/src/main/java/com/volkan/config/security/JwtTokenFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UserMicroService/src/main/java/com/volkan/config/security/JwtUserDetails.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UserMicroService/src/main/java/com/volkan/config/security/UserSecurityConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UserMicroService/src/main/java/com/volkan/constants/ApiUrls.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UserMicroService/src/main/java/com/volkan/controller/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UserMicroService/src/main/java/com/volkan/dto/request/CreateUserRequestDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UserMicroService/src/main/java/com/volkan/dto/request/DoLoginRequestDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UserMicroService/src/main/java/com/volkan/dto/request/UpdatePasswordRequestDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UserMicroService/src/main/java/com/volkan/dto/request/UserRegisterRequestDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UserMicroService/src/main/java/com/volkan/dto/response/UserRegisterResponseDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UserMicroService/src/main/java/com/volkan/exception/EErrorType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UserMicroService/src/main/java/com/volkan/exception/ErrorMessage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UserMicroService/src/main/java/com/volkan/exception/GlobalExceptionHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UserMicroService/src/main/java/com/volkan/exception/UserManagerException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UserMicroService/src/main/java/com/volkan/mapper/IUserMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UserMicroService/src/main/java/com/volkan/rabbitmq/consumer/AuthorizationUserConsumer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UserMicroService/src/main/java/com/volkan/rabbitmq/model/AuthorizationUserModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UserMicroService/src/main/java/com/volkan/repository/IUserRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UserMicroService/src/main/java/com/volkan/repository/entity/BaseEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UserMicroService/src/main/java/com/volkan/repository/entity/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UserMicroService/src/main/java/com/volkan/repository/enums/ERole.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UserMicroService/src/main/java/com/volkan/repository/enums/EStatus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UserMicroService/src/main/java/com/volkan/service/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UserMicroService/src/main/java/com/volkan/utility/IService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UserMicroService/src/main/java/com/volkan/utility/JwtTokenManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UserMicroService/src/main/java/com/volkan/utility/ServiceManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UserMicroService/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VehicleMicroService/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VehicleMicroService/src/main/java/com/volkan/VehicleServiceApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VehicleMicroService/src/main/java/com/volkan/config/rabbitmq/RabbitMQConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VehicleMicroService/src/main/java/com/volkan/config/security/JwtTokenFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VehicleMicroService/src/main/java/com/volkan/config/security/JwtUserDetails.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VehicleMicroService/src/main/java/com/volkan/config/security/UserSecurityConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VehicleMicroService/src/main/java/com/volkan/constants/ApiUrls.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VehicleMicroService/src/main/java/com/volkan/controller/VehicleController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VehicleMicroService/src/main/java/com/volkan/dto/request/CreateVehicleRequestDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VehicleMicroService/src/main/java/com/volkan/dto/request/UpdateVehicleRequestDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VehicleMicroService/src/main/java/com/volkan/dto/response/VehicleResponseDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VehicleMicroService/src/main/java/com/volkan/exception/EErrorType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VehicleMicroService/src/main/java/com/volkan/exception/ErrorMessage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VehicleMicroService/src/main/java/com/volkan/exception/GlobalExceptionHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VehicleMicroService/src/main/java/com/volkan/exception/VehicleManagerException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VehicleMicroService/src/main/java/com/volkan/mapper/IVehicleMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VehicleMicroService/src/main/java/com/volkan/rabbitmq/consumer/AuthorizationVehicleConsumer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VehicleMicroService/src/main/java/com/volkan/rabbitmq/model/AuthorizationVehicleModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VehicleMicroService/src/main/java/com/volkan/repository/IVehicleRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VehicleMicroService/src/main/java/com/volkan/repository/entity/BaseEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VehicleMicroService/src/main/java/com/volkan/repository/entity/Vehicle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VehicleMicroService/src/main/java/com/volkan/repository/enums/ERole.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VehicleMicroService/src/main/java/com/volkan/repository/enums/EStatus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VehicleMicroService/src/main/java/com/volkan/service/VehicleService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VehicleMicroService/src/main/java/com/volkan/utility/IService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VehicleMicroService/src/main/java/com/volkan/utility/JwtTokenManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VehicleMicroService/src/main/java/com/volkan/utility/ServiceManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VehicleMicroService/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/readme.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jpa-buddy.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jpa-buddy.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dependencies.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/dependencies.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/volkan/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/volkan/Main.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -15,8 +142,77 @@
       <ProjectState />
     </projectState>
   </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$/UserMicroService">
+          <activation />
+        </task>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="MobilizVehicleTrackingSystem" type="f1a62948:ProjectNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="MobilizVehicleTrackingSystem" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="MobilizVehicleTrackingSystem" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="build" type="c8890929:TasksNode$1" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="MobilizVehicleTrackingSystem" type="f1a62948:ProjectNode" />
+                <item name="UserMicroService" type="2d1252cf:ModuleNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="MobilizVehicleTrackingSystem" type="f1a62948:ProjectNode" />
+                <item name="UserMicroService" type="2d1252cf:ModuleNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="MobilizVehicleTrackingSystem" type="f1a62948:ProjectNode" />
+                <item name="UserMicroService" type="2d1252cf:ModuleNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="build" type="c8890929:TasksNode$1" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HttpClientSelectedEnvironments">
+    <file url="jar://$APPLICATION_HOME_DIR$/plugins/restClient/lib/restClient.jar!/com/intellij/ws/rest/client/requests/collection/post-requests.http" environment="test" />
+  </component>
+  <component name="JpbToolWindowState">
+    <option name="isToolWindowVisible" value="false" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2TfS3IdqOz7bA8XQMtcB071J4Fs" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -26,12 +222,165 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
+    "jdk.selected.JAVA_MODULE": "corretto-17 (2)",
+    "last_opened_file_path": "/Users/sezaigenel/Desktop/Java_Mulakat/MobilizVehicleTrackingSystem/DistrictAndAuthorizationMicroService/src/main/java/com/volkan/config/security",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.17",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "spring",
+    "spring.configuration.checksum": "8ffa9257bd4fba95873241315f524af1",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="ReactorSettings">
+    <option name="notificationShown" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.volkan.service" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/DistrictAndAuthorizationMicroService/src/main/java/com/volkan/config/security" />
+      <recent name="$PROJECT_DIR$/VehicleMicroService/src/main/java/com/volkan/config/rabbitmq" />
+      <recent name="$PROJECT_DIR$/VehicleMicroService/src/main/java/com/volkan" />
+      <recent name="$PROJECT_DIR$/UserMicroService/src/main/java/com/volkan/config/security" />
+      <recent name="$PROJECT_DIR$/UserMicroService/src/main/java/com/volkan/config" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/DistrictAndAuthorizationMicroService/src/main/resources/public" />
+      <recent name="$PROJECT_DIR$" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.volkan.config.security" />
+      <recent name="com.volkan.rabbitmq.model" />
+      <recent name="com.volkan.config.rabbitmq" />
+      <recent name="com.volkan.config" />
+      <recent name="com.volkan.dto.response" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Spring Boot.VehicleServiceApplication">
+    <configuration name="MobilizVehicleTrackingSystem [clean]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="clean" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="MobilizVehicleTrackingSystem:UserMicroService [clean]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/UserMicroService" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="clean" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="All in generated-requests" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" path="$APPLICATION_CONFIG_DIR$/scratches/generated-requests.http">
+      <method v="2" />
+    </configuration>
+    <configuration name="ApiGatewayServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="MobilizVehicleTrackingSystem.ApiGatewayMicroService.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.volkan.ApiGatewayServiceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AuthServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="MobilizVehicleTrackingSystem.AuthMicroService.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.vokannn.AuthServiceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AuthServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="MobilizVehicleTrackingSystem.AuthMicroService.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.volkan.AuthServiceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ConfigServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="MobilizVehicleTrackingSystem.ConfigServer.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.volkan.ConfigServerApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DistrictAndAuthorizationServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="MobilizVehicleTrackingSystem.DistrictAndAuthorizationMicroService.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.volkan.DistrictAndAuthorizationServiceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="MobilizVehicleTrackingSystem.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.volkan.Main" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="MobilizVehicleTrackingSystem.UserMicroService.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.volkan.UserServiceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="VehicleServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="MobilizVehicleTrackingSystem.VehicleMicroService.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.volkan.VehicleServiceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Gradle.MobilizVehicleTrackingSystem [clean]" />
+        <item itemvalue="Gradle.MobilizVehicleTrackingSystem:UserMicroService [clean]" />
+        <item itemvalue="HTTP Request.All in generated-requests" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -40,7 +389,28 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1691432443091</updated>
+      <workItem from="1691432444926" duration="15050000" />
+      <workItem from="1691506015303" duration="153604000" />
+      <workItem from="1691849390232" duration="30964000" />
     </task>
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
