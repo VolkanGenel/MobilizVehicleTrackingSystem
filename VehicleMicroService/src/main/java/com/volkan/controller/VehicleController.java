@@ -37,7 +37,7 @@ public class VehicleController {
 
     @GetMapping(FIND_ALL)
     public ResponseEntity<List<Vehicle>> getAllVehicles(String token) {
-        List<Vehicle> vehicles = vehicleService.findAllVehicles(token);
+        List<Vehicle> vehicles = vehicleService.getAllVehicles(token);
         return ResponseEntity.ok(vehicles);
     }
 

@@ -88,10 +88,10 @@ public class UserService extends ServiceManager<User,Long> {
             throw new UserManagerException(EErrorType.USER_NOT_FOUND);
         List<Long> allowedList = user.get().getAuthorizationIds().stream().toList();
         ERole role = user.get().getRole();
-        Optional<String> token = tokenManager.createToken(userId,allowedList,role);
-        if (token.isEmpty())
+        Optional<String> tokenCreated = tokenManager.createToken(userId,allowedList,role);
+        if (tokenCreated.isEmpty())
             throw new UserManagerException(EErrorType.TOKEN_CREATION_ERROR);
-        return token;
+        return tokenCreated;
     }
 
     public ResponseEntity<Void> authorizeUser(AuthorizationUserModel model) {

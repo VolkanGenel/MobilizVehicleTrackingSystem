@@ -26,10 +26,6 @@ spring:
     username: user
     password: root
 
-  security:
-    user:
-      name: CompanyAdmin
-      password: 12345
 jwt:
   secretKey: aaa #${javasecretkey}
   audience: aaa #${javaaudience}

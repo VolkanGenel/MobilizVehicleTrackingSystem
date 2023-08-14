@@ -69,7 +69,7 @@ public class VehicleService extends ServiceManager<Vehicle,Long> {
         return ResponseEntity.ok().build();
     }
 
-    public List<Vehicle> findAllVehicles(String token) {
+    public List<Vehicle> getAllVehicles(String token) {
         List<Vehicle> vehicles = findAll();
         Optional<String> role = tokenManager.getRoleFromToken(token);
         if(role.get().equals(ERole.COMPANYADMIN.toString())) {
