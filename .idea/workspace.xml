@@ -6,10 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="f359d816-efc1-4377-92f1-faa3499ec6b9" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ConfigServer/src/main/resources/config-repo/district-and-authorization-micro-service-application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ConfigServer/src/main/resources/config-repo/district-and-authorization-micro-service-application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UserMicroService/src/main/java/com/volkan/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/UserMicroService/src/main/java/com/volkan/service/UserService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/VehicleMicroService/src/main/java/com/volkan/controller/VehicleController.java" beforeDir="false" afterPath="$PROJECT_DIR$/VehicleMicroService/src/main/java/com/volkan/controller/VehicleController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/VehicleMicroService/src/main/java/com/volkan/service/VehicleService.java" beforeDir="false" afterPath="$PROJECT_DIR$/VehicleMicroService/src/main/java/com/volkan/service/VehicleService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/readme.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -272,7 +268,7 @@
       <updated>1691432443091</updated>
       <workItem from="1691432444926" duration="15050000" />
       <workItem from="1691506015303" duration="153604000" />
-      <workItem from="1691849390232" duration="41146000" />
+      <workItem from="1691849390232" duration="42782000" />
     </task>
     <servers />
   </component>

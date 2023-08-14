@@ -3,14 +3,13 @@ PROJE İÇİN DOCKER'DA bu iki kod run edilmeli.
     docker run -d --hostname my-rabbit --name some-rabbit -p 15672:15672 -p 5672:5672 -e RABBITMQ_DEFAULT_USER=user -e RABBITMQ_DEFAULT_PASS=root rabbitmq:3-management
 ## Zipkin Docker
     docker run -d -p 9411:9411 openzipkin/zipkin
-
 2) postgres pgAdmin indirilmiş olmalı, sonrasında MobilizDistrictAndAuthorization, MobilizVehicle ve MobilizUser Databaseleri oluşturulmalı.
 3) Modüllerde öncelikle ConfigServer, sonra ApiGateway sonrasında DistrictAndAuthorization,Vehicle ve User Mikroservisleri ayağa kaldırılmalı.
 4) Proje çalıştırılıp tablolar oluşturulunca PostgreSQL de, MobilizUser Database'inde bir COMPANYADMIN rolünde, şifresi oluşturularak(Aa123456**)
 ve email bilgisi girilerek User tanımlanmalı; çünkü register işlemi yetkisi COMPANYADMIN rolune sahip olan kişide.
 5)  UserMicroService için methodlar buradan görüntülenebilir http://localhost:8090/swagger-ui/index.html#/
     VehicleMicroService için methodlar buradan görüntülenebilir http://localhost:8091/swagger-ui/index.html#/
-    DistrictAndAuthorizationMicroService için methodlar buradan görüntülenebilir http://localhost:8090/swagger-ui/index.html#/
+    DistrictAndAuthorizationMicroService için methodlar buradan görüntülenebilir http://localhost:8092/swagger-ui/index.html#/
 6) UserMicroService için oluşturduğumuz User'ın şifresi ve emaili ile Login methodu çalıştırılarak token alınıp bu tokenla PostMan üzerinden istek atılarak başlanabilir.
 7) DistrictAndAuthorizationMicroService'te;
             Zone Entity'si Bölge anlamına Gelir (AVRUPA,ASYA vs.)
